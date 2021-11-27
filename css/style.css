@@ -1,0 +1,188 @@
+.adp_btn{
+  text-decoration: none;
+}
+.body{
+  padding: 0%;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Title */
+#title {
+  background-color: #ffc107;
+  color: white;
+  padding: 5% 7% 0 ;
+  
+}
+
+.container-fluid {
+  padding: 3% 15% 0%;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 4.5rem;
+  text-decoration: uppercase;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Downloads Buttons */
+.download-button{
+  margin:5% 3% 5% 20%;
+}
+
+/* Title image */
+.title-img{
+  width: 100%;
+}
+.title-h1{
+  margin-left: 20%;
+}
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #fff;
+}
+#testimonials h2{
+  color:#ffc107;
+  font-family: 'montserrat';
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#testimonials img{
+  width:30%;
+  border-radius: 10%;
+  margin:10px;
+}
+.padd{
+   padding:5% 15%;
+}
+
+/* why to adopt */
+
+#whyadopt{
+  background-color: black;
+  padding: 4% 15% 0;
+  /* position: absolute; */
+  text-align: center;
+}
+.whyadoptmain{
+  display: flex;
+}
+.whyadopth2{
+  float: right;
+  text-align: center;
+  width: 100%;
+  color: #ffc107;
+}
+.whyadoptimg{
+  float: left;
+}
+#whyshouldadopt h4, p{
+  color:white;
+  padding-top: 3%;
+}
+.carousel-control-prev-icon{
+  padding-left: 30px;
+  margin-right: 120px;
+}
+.carousel-control-next-icon{
+  padding-left: 30px;
+  margin-left: 120px;
+}
+
+/* contact us */
+.contact-form textarea{
+  resize: none;
+}
+.contact-txt{
+  text-align: center;
+  margin:100px 0px 0 0;
+}
+.contact-txt h1{
+  text-align: center;
+  color:#000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  text-transform: uppercase;
+  font-size: 60px;
+}
+form{
+  margin-top: 100px;
+}
+.form-controll{
+  width:400px;
+  background:transparent;
+  border:none;
+  outline:none;
+  border-bottom: 1px solid gray;
+  color:gray;
+  font-size: 18px;
+  margin-bottom:50px;
+}
+form .submit{
+  background: #ffc107;
+  border-color: transparent;
+  color:#fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow:  0px 3px 10px 0px rgb(32 33 36 / 100%);
+}
+form .submit:hover{
+  background-color: #ff3c00;
+}
+
+/* footer */
+#footer{
+  background-color: #000;
+  color: #ffc107;
+  height: 200px;
+}
+.footer_1 h5{
+  text-align: center;
+  padding-top: 60px;
+}
+
+/* .c1{
+  width: 100%;
+  padding: 2%;
+  float: right;
+  border-radius: 5%;
+  padding: 0 8%;
+} */
+@media(max-width:933px){
+  .whyadoptimg{
+    float: none;
+    width: 0;
+  }
+  .c1{
+    float: none;
+  }
+}

@@ -1,0 +1,86 @@
+/* Navigation Bar */
+.navbar {
+    padding: 0 4.5rem;
+    text-decoration: uppercase;
+  }
+  
+  .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .nav-item{
+    padding:0 18px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+
+  /* adopt */
+  .bg-lft{
+    height: 400px;
+    width: 100%;
+    margin: 70px 0 0 0px;
+    padding-top: 100px;
+    background-image:url(../image/group-portrait-adorable-puppies.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    image-rendering: optimizeQuality;
+}
+
+.contact-txt{
+   
+    text-align: center;
+}
+.contact-txt h1{
+    text-align: center;
+    color:#C5D9FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+h4{
+  color:black;
+  text-transform: capitalize;
+}
+form{
+    margin-top: 50px;
+}
+.contact-form textarea{
+    resize: none;
+}
+.form-controll{
+    width:400px;
+    background:transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid gray;
+    color:gray;
+    font-size: 18px;
+    margin-bottom:50px;
+}
+form .submit{
+    background: #DAEBE8;
+    border-color: transparent;
+    color:#fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow:  0px 3px 10px 0px rgb(32 33 36 / 100%);
+}
+form .submit:hover{
+    background-color: #93e7d8;
+}
+/* footer */
+#footer{
+  background-color: #000;
+  color: #ffc107;
+  height: 200px;
+}
+.footer_1 h5{
+  text-align: center;
+  padding-top: 60px;
+}
